@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>QR Code Attendance</title>
+  <script src="https://unpkg.com/html5-qrcode"></script>
+  <style>
+    body {
+      font-family: Arial;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px;
+    }
+    #qr-reader {
+      width: 300px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Scan QR Code to Record Attendance</h2>
+  <div id="qr-reader"></div>
+  <div id="result"></div>
+
+  <script src="main.js"></script>
+</body>
+</html>
